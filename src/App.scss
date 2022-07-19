@@ -4,8 +4,14 @@
  
     text-align: center;
 display: flex;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
 
-
+.tickets{
+  display: flex;
+  flex-direction: row;
+}
 
 
     &__heading {
@@ -24,8 +30,17 @@ display: flex;
     margin: 0 auto;
     display: grid;
     gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, min-content);
+    // grid-template-columns: repeat(2, 1fr);
+    // grid-template-rows: repeat(2, min-content);
+    justify-content: space-around;
+    flex-direction: row;
+    flex-direction: row;
+flex-wrap: wrap;
 
+  }
+  .tickets{
+    justify-content: space-around;
+    flex-direction: row;
+    size: 60%;
   }
 }

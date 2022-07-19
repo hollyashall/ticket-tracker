@@ -3,7 +3,7 @@
 import "./App.scss";
 import Employee from "./components/EmployeeTile/Employee";
 import team from "./data/team";
-
+import "./components/Tickets/Tickets.scss";
 
 
 
@@ -16,9 +16,7 @@ const employeeTiles = team.map(employee => {
   return (
     <>
     <div className="app">
-      
-        {/* <Employee title="Tickets"  /> */}
-        <div>{employeeTiles}</div>
+        <div className="Tickets">{employeeTiles}</div>
         
     </div>
     </>

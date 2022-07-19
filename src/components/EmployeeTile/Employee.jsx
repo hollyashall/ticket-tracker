@@ -20,6 +20,7 @@ const Employee = ({ name, role}) => {
       <section className="employee">
         <h2 className="employee__title">{name}</h2>
         <p className="employee__role">{role}</p>
+        <p>Counter</p>
 
         <button onClick={handleDecrement}
             id={Employee.id}
