@@ -25,18 +25,18 @@ const Employee = ({ name, role}) => {
         <button onClick={handleDecrement}
             id={Employee.id}
             
-            className="employee__button-minus"
+            className="employee__button"
           >
             -
           </button>
 
-          <div className="employee__button-counter">
+          <div className="employee__counter">
             <p>{counter}  </p>
           </div>
           <button onClick={handleIncrement}
             id={Employee.id}
            
-            className="employee__button-add"
+            className="employee__button"
           >
             +
           </button>

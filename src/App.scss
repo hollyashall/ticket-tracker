@@ -2,45 +2,53 @@
 
 .app {
  
-    text-align: center;
+text-align: center;
 display: flex;
-justify-content: space-around;
+justify-content: center;
 flex-direction: row;
 flex-wrap: wrap;
+margin: 0;
+font-family: Calibri, 'Trebuchet MS', sans-serif;
+
+.heading{
+  text-align: center;
+  display: flex;
+  color: rgb(201, 192, 255);
+  height: 100%;
+  font-size: 3rem;
+}
 
 .tickets{
   display: flex;
   flex-direction: row;
 }
-
-
-    &__heading {
-      color: $color-black;
-    }
-
-    & > * {
-      margin: 20px;
-    }
-  
+ 
+}
+.heading{
+  text-align: center;
+  display: flex;
+  color: pink;
+  padding: 0px;
+  margin: 0px;
 }
 
-@media screen and (min-width: 992px) {
-  .app {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 50px;
-    // grid-template-columns: repeat(2, 1fr);
-    // grid-template-rows: repeat(2, min-content);
-    justify-content: space-around;
-    flex-direction: row;
-    flex-direction: row;
-flex-wrap: wrap;
 
-  }
-  .tickets{
-    justify-content: space-around;
-    flex-direction: row;
-    size: 60%;
-  }
-}
+// @media screen and (min-width: 768px) {
+//   .app {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     gap: 50px;
+//     justify-content: space-around;
+//     height: 70%;
+//     flex-direction: row;
+// flex-wrap: wrap;
+
+//   }
+//   .tickets{
+//     justify-content: space-around;
+//     flex-direction: row;
+//     size: 60%;
+//     height: 60%;
+//     width: 60%;
+//   }
+// }
