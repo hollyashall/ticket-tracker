@@ -17,7 +17,7 @@ const employeeTiles = team.map(employee => {
     <>
     <div className="app">
       
-        <Employee title="Tickets"  />
+        {/* <Employee title="Tickets"  /> */}
         <div>{employeeTiles}</div>
         
     </div>
